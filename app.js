@@ -84,7 +84,8 @@ button.addEventListener("click", () => {
   let crushName = document.querySelector("#secondName").value;
   let answer = document.querySelector("#answer");
   let bg = document.querySelector("#main");
-
+  userName = userName.toLowerCase();
+  crushName = crushName.toLowerCase();
   arr1 = userName.split("");
   arr2 = crushName.split("");
   console.log(arr1);
